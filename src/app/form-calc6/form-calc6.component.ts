@@ -73,6 +73,8 @@ onClickSum(){
     this.resultado = NaN;
 }
  }
- 
+  onClickExponentiation(){
+    this.resultado = Math.pow(this.num1, this.num2);
+  }
 
 }
