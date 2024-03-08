@@ -74,9 +74,13 @@ onClickSum(){
 }
  }
 <<<<<<< HEAD
+<<<<<<< HEAD
   onClickExponentiation(){
     this.resultado = Math.pow(this.num1, this.num2);
   }
+=======
+ 
+>>>>>>> 398a72c7583d07fa33e2194ec142731dbae64a91
 =======
  
 >>>>>>> 398a72c7583d07fa33e2194ec142731dbae64a91
