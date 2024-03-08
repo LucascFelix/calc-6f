@@ -1,12 +1,13 @@
 <form>
     <input type="number"[(ngModel)]="num1" name="num1">
     <input type="number"[(ngModel)]="num2" name="num2">
-    <input name="num2">
     <button (click)="onClickSum()">+</button>
     <button (click)="onClickSubtraction()">-</button>
     <button (click)="onClickMultiplication()">x</button>
     <button (click)="onClickDivision()">/</button>
-    <button (click)="onClickExponentiation()"></button>
+    <button (click)="onClickExponentiation()">^</button>
+    <button (click)="onClickRadication()">√</button>
+    
     {{resultado}}
   
 

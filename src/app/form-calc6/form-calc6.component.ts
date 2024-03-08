@@ -49,10 +49,17 @@ export class FormCalc6Component {
   calcularExponentiation() {
     this.resultado = Math.pow(this.num1, this.num2);
 }
-
-calcularRadicacao() {
-    this.resultado = Math.pow(this.num1, 1 / this.num2);
+calcularRadication(): void {
+  if (!isNaN(this.num1) && this.num1 >= 0) {
+      this.resultado = Math.sqrt(this.num1);
+  } else {
+      this.resultado = NaN;
+  }
 }
+
+
+
+
 
 onClickSum(){
   this.resultado = this.num1 + this.num2;
@@ -74,7 +81,16 @@ onClickSum(){
 }
  }
  
-    onClickExponentiation(){
-    this.resultado = Math.pow(this.num1, this.num2);
+  onClickExponentiation(){
+  this.resultado = Math.pow(this.num1, this.num2);
+  
+}
+  onClickRadication(){
+    if (!isNaN(this.num1) && this.num1 >= 0) {
+      this.resultado = Math.sqrt(this.num1);
+  } else {
+      this.resultado = NaN;
   }
+  }
+
 }
