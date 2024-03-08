@@ -54,5 +54,9 @@ calcularRadicacao() {
     this.resultado = Math.pow(this.num1, 1 / this.num2);
 }
 
+onClickSum(){
+  this.resultado = this.num1 + this.num2;
+}
+
 
 }

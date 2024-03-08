@@ -2,7 +2,8 @@
     <input type="number"[(ngModel)]="num1" name="num1">
     <input type="number"[(ngModel)]="num2" name="num2">
     <input name="num2">
-    <button>+</button>
+    <button (click)="onClickSum()">+</button>
+    
     <button>-</button>
     <button>x</button>
     <button>/</button>
