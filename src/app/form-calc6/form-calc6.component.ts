@@ -65,4 +65,14 @@ onClickSum(){
   this.resultado = this.num1 * this.num2;
  }
 
+ onClickDivision(){
+  if (this.num2 !== 0) {
+    this.resultado = this.num1 / this.num2;
+} else {
+    // Tratamento de divisão por zero
+    this.resultado = NaN;
+}
+ }
+ 
+
 }
