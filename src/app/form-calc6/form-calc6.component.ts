@@ -57,6 +57,8 @@ calcularRadicacao() {
 onClickSum(){
   this.resultado = this.num1 + this.num2;
 }
-
+ onClickSubtraction(){
+  this.resultado = this.num1 - this.num2;
+ }
 
 }
