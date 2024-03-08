@@ -56,12 +56,7 @@ calcularRadication(): void {
       this.resultado = NaN;
   }
 }
-
-
-
-
-
-onClickSum(){
+onClickSum(): void{
   this.resultado = this.num1 + this.num2;
 }
  onClickSubtraction(){
@@ -82,7 +77,7 @@ onClickSum(){
  }
  
   onClickExponentiation(){
-  this.resultado = Math.pow(this.num1, this.num2);
+  this.resultado = Math.pow(this.num1, this.num2); 
   
 }
   onClickRadication(){
