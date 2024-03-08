@@ -61,4 +61,8 @@ onClickSum(){
   this.resultado = this.num1 - this.num2;
  }
 
+ onClickMultiplication(){
+  this.resultado = this.num1 * this.num2;
+ }
+
 }
